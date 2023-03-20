@@ -1,0 +1,55 @@
+body {background-color: tan;
+background-image: url(applepie.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+body {color:white;
+font-size: 14pt;
+text-shadow: 2px 2px #000000;}
+h1 {color:red}
+h2 {color:green}
+p {font-family:cursive;}
+li {font-family:monospace}
+h1 {text-align:center}
+h2 {text-transform: uppercase}
+a:link {color: green;}
+a:visited {color: red;}
+a:hover {color: whitesmoke;}
+a:active {color: green;}
+
+.div1 { Width: 80%;
+	height: 150px; line-height: 220%;
+	background-color: darkgray;
+	border: 5px ridge #000000;
+	padding :5px;
+	text-align: center;
+	margin: 25px 10%; }
+
+.div2 { box-sizing: border-box;
+	Width: 20%;
+	height: 700px; line-height: 120%;
+	background-color: darkred;
+	border: 5px ridge #000000;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+	margin-left: 10%;
+	float: left; }
+
+.div3 { box-sizing: border-box;
+	Width: 55%;
+	height: 700px; line-height: 120%;
+	background-color: darkred;
+	border: 5px ridge #000000;
+	padding: 10px;
+	text-align: left;
+	margin: auto;
+	margin-left: 35%; }
+
+.div4 { Width: 80%;
+	height: 200px; line-height: 120%;
+	background-color: darkgray;
+	border: 5px ridge #000000;
+	padding :5px;
+	text-align: left;
+	margin: 75px 10%; }
