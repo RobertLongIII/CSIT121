@@ -1,0 +1,50 @@
+body {background-color: greenyellow;
+	background-image: url(Scales.jpg); }
+h1 {color: whitesmoke;
+font-family: papyrus;
+font-size: 60px; }
+nav	{color: green;
+	font-size: 25px;}
+h2	{color: black;
+	font-size: 45px;
+	font-family: papyrus; }
+p	{color: black;
+	text-align: left;
+	font-size: 20px; }
+a:link {color: green;}
+a:visited {color: darkgreen;}
+a:hover {color: black;}
+a:active {color: darkgreen;}
+
+.div1 { Width: 30%;
+	height: 150px; line-height: 220%;
+	background-color: green;
+	border: 5px ridge #000000;
+	padding : 15px;
+	text-align: center;
+	margin: auto; }
+
+.div2 { Width: 30%;
+	height: 25px; line-height: 220%;
+	background-color: whitesmoke;
+	border: 5px ridge #000000;
+	padding : 15px;
+	text-align: center;
+	margin: auto; }
+
+.div3 { Width: 30%;
+	height: 1200px; line-height: 120%;
+	background-color: whitesmoke;
+	border: 5px ridge #000000;
+	padding : 15px;
+	text-align: center;
+	margin: auto; }
+
+.div4 { Width: 30%;
+	height: 25px; line-height: 220%;
+	background-color: green;
+	border: 5px ridge #000000;
+	padding : 15px;
+	text-align: center;
+	margin: auto;
+	color: whitesmoke; }
