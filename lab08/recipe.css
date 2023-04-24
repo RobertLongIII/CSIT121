@@ -1,0 +1,140 @@
+body {background-color: tan;
+background-image: url(applepie.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;}
+body {color:white;
+font-size: 14pt;}
+h1 {color:red}
+h2 {color:green}
+p {font-family:cursive;}
+li {font-family:monospace}
+h1 {text-align:center}
+h2 {text-transform: uppercase}
+a:link {color: green;}
+a:visited {color: red;}
+a:hover {color: whitesmoke;}
+a:active {color: green;}
+table { background-color:white;
+	color: black;
+	border-collapse: collapse;
+	font-family: helvetica; }
+th { font-size: 34px;
+	text-align: left; }
+thead { border-bottom: 10px solid black;
+	padding: 0 0 0.25rem 0;
+	margin: 0 0 0.5rem 0;
+	text-align: left; }
+tr { border-bottom: 2px solid black; }
+tr.heading { border-bottom: none;
+	text-align: left; }
+
+.main { width: 100%;
+	border: none;
+	overflow: hidden;
+	align-content: center; }
+
+.div1 { Width: 80%;
+	height: 150px; line-height: 220%;
+	background-color: darkgray;
+	border: 5px ridge #000000;
+	padding :5px;
+	text-align: center;
+	margin: 25px 10%; }
+
+.div2 { box-sizing: border-box;
+	Width: 20%;
+	height: 700px; line-height: 120%;
+	background-color: darkred;
+	border: 5px ridge #000000;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+	margin-left: 10%;
+	float: left;
+	text-shadow: 2px 2px #000000; }
+
+.div3 { box-sizing: border-box;
+	Width: 55%;
+	height: 700px; line-height: 120%;
+	background-color: darkred;
+	border: 5px ridge #000000;
+	padding: 10px;
+	text-align: left;
+	margin: auto;
+	margin-left: 35%;
+	text-shadow: 2px 2px #000000; }
+
+.div4 { Width: 80%;
+	height: 200px; line-height: 120%;
+	background-color: darkgray;
+	border: 5px ridge #000000;
+	padding: 5px;
+	text-align: left;
+	margin: 75px 10%;
+	text-shadow: 2px 2px #000000; }
+
+.NutritionFacts { box-sizing: border-box;
+	Width: auto;
+	height: auto;
+	background-color: darkgray;
+	border: 5px ridge #000000;
+	padding: 10px;
+	text-align: left;
+	margin: auto;
+	margin-left: 10%;
+	float: left;
+	text-shadow: 2px 2px #000000;
+	overflow: hidden;
+	align-content: center; }
+
+.contactform { box-sizing: border-box;
+	Width: auto;
+	height: auto;
+	background-color: darkred;
+	border: 5px ridge #000000;
+	padding: 10px;
+	text-align: left;
+	margin: auto;
+	margin-left: 25% ;
+	float: left;
+	text-shadow: 2px 2px #000000;
+	overflow: hidden;
+	align-content: center; }
+h3 { text-align: center;
+	font-size: 100%; }
+
+@media (max-width: 768px) {
+	.div2 {
+		float: none;
+		clear: left;
+		width: 80%;
+		height: 50%;
+		margin: 25px 10%;
+	}
+	.div3 {
+		width: 80%;
+		height: 50%;
+		margin: 25px 10%;
+	}
+	#img {
+		width: 50px;
+		height: 50px;
+		align-content: auto;
+		margin: auto;
+	}
+	body { background-image: url(applebackground.png);
+	background-repeat: repeat; 
+	background-attachment: fixed;
+	background-size: cover;
+	}
+	.div1 {
+		background-color: lightyellow;
+	}
+	.div4 {
+		height: 20%;
+		background-color: lightyellow;
+		color: black;
+		text-shadow: 2px 2px whitesmoke;
+	}
+}
