@@ -1,0 +1,110 @@
+body { background-image: url(bluepattern.jpg);
+	background-color: #007694;
+	font-family: "Helvetica"; }
+footer { position: static;
+	color: black;
+	background-color: #f7ecdd;
+	float: bottom;
+	padding: 10px 0% 1% 0%;
+	margin: auto;
+	bottom: 0px;
+	height: 40px;
+	width: 80%;
+	border: 5px ridge black; }
+header { align-content: center;
+	text-align: center;
+	font-size: 56px;
+	color: #007694;
+    text-shadow:
+    -1px -1px 0 #f7ecdd,
+    1px -1px 0 #f7ecdd,
+    -1px 1px 0 #f7ecdd,
+    1px 1px 0 #f7ecdd; }
+nav { justify-content: space-between;
+	align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+	text-align: center;
+	padding: 20px 10% 20px 5%;
+	font-size: 100%;
+	background-color: #f7ecdd;
+	color: #007694; 
+	font-weight: bolder; }
+h1 { font-size: 64px; }
+h2 { font-size: 34px; }
+h3 { font-size: 34px;
+	text-align: left;
+	padding-left: 10px; }
+p { font-size: 20px; }
+a { color: #007694; }
+table { margin: auto;
+	margin-bottom: 5%;
+	width: 50%;
+	height: 100%;
+	padding: auto;
+	font-size: 24px; }
+th { font-size: 32px;
+	background-color: #007694; }
+th:hover { background-color: skyblue; }
+tr:hover { background-color: grey; }
+form	{ padding-bottom: 10px; }
+li { align-content: center;
+	text-align: left;
+	padding-left: auto; }
+ul { list-style-position: inside; }
+ol { list-style-position: inside; }
+
+
+.mountainphoto { background-image: url(mountain.jpg);
+	background-size: cover;
+	margin: auto;
+	padding: 10% 0% 10% 0%;
+	height: 25%;
+	width: 80%;
+	align-content: center;
+	border: 5px ridge black; }
+
+.navigation { padding: auto;
+	margin: 0px 10% 0px 10%;
+	align-content: center;
+	border-top: 1px ridge black;
+	border-bottom: 1px ridge black;
+	font-size: 24px;
+	justify-content: space-between;
+	align-items: center; }
+
+.image { float: left;
+	margin: 0px 0px 0px 0px;
+	padding: auto;
+	padding-right: 0px;
+	border: none;
+	height: 100%;
+	width: 65%;
+	align-content: left;
+	align-items: left;
+	display: block; }
+
+.text { padding: 10px 0px 16% 0px;
+	padding-left: 0px;
+	margin: 0px 5% 0px 5%;
+	border: none;
+	height: 100%; }
+
+.container { border: 5px ridge black;
+	margin: auto;
+	width: 80%; height: 100%;
+	background-color: #f7ecdd;
+	align-content: center;
+	text-align: center; }
+ 
+
+@media only screen and (max-width: 1150px) { 
+	footer {padding: 10px 0% 2% 0%;}
+	nav { font-size: 65%; }
+	.image { width: 100%; }
+	.text { padding: auto; }
+	th { font-size: 32px; }
+	table { width: 90%; }
+	.goal { width: 90%; }
+	.dream { width: 90%; }
+ }
