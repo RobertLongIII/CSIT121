@@ -100,7 +100,7 @@ ol { list-style-position: inside; }
 
 @media only screen and (max-width: 1150px) { 
 	footer {padding: 10px 0% 2% 0%;}
-	nav { font-size: 65%; }
+	nav { font-size: 55%; }
 	.image { width: 100%; }
 	.text { padding: auto; }
 	th { font-size: 32px; }
