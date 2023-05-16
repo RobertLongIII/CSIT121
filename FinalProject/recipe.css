@@ -105,6 +105,7 @@ ol { list-style-position: inside; }
 	.text { padding: auto; }
 	th { font-size: 24px; }
 	table { width: 90%; }
+	td { font-size: 12px; }
 	.goal { width: 90%; }
 	.dream { width: 90%; }
  }
